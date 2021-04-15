@@ -1,0 +1,28 @@
+body {
+    background-color: darkcyan;
+    text-align: center;
+    font-family: Monospaced, sans-serif;
+}
+
+div {
+    background-color: white;
+    opacity: 60%;
+    color: antiquewhite;
+    font-size: 140%;
+    font-family: Monospaced, sans-serif;
+    -webkit-text-stroke: 1px black;
+}
+h1 {
+    color: firebrick;
+    background-color: burlywood;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    color: beige;
+    font-family: Castellar, serif;
+    font-size: 150%;
+}

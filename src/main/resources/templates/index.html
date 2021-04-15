@@ -6,9 +6,15 @@
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
-<h1>Hello, here I'll show you how to do things.</h1>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Having trouble remembering dreams?</h1>
 
+<div>This guide will show you how to get better at remembering your dreams in three simple steps!</div>
+<br>
+<img th:src="@{/img/dreams.jpg}">
+<br>
 <a th:href="@{/step1}">To step 1.</a>
+<div th:insert="fragments/_footer :: footer"></div>
 
 </body>
 </html>

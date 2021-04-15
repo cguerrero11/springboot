@@ -6,7 +6,18 @@
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Step 3: Reread your Journal</h1>
+<div>
+    Read your journal to keep reminding yourself about the dreams, and your mind will train you memory from your dreams so that
+    you're able to remember future dreams in more detail in the future. Keep repeating these steps to improve your dream recall and have
+    a story to tell every time you wake up!
+    <br>
+    <img class="left" th:src="@{/img/dreamjournal2.jpg}">
+</div>
+<h2>Thank you for reading!</h2>
 
 <a th:href="@{/}">Back to home.</a>
+<div th:insert="fragments/_footer :: footer"></div>
 </body>
 </html>

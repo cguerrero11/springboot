@@ -7,11 +7,19 @@ body {
 div {
     background-color: white;
     opacity: 60%;
-    color: antiquewhite;
+    color: darkblue;
     font-size: 140%;
     font-family: Monospaced, sans-serif;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px firebrick;
+    margin-bottom: 50px;
+    padding: 30px;
 }
+
+img {
+    width: 240px;
+    height: auto;
+}
+
 h1 {
     color: firebrick;
     background-color: burlywood;
@@ -25,4 +33,5 @@ a {
     color: beige;
     font-family: Castellar, serif;
     font-size: 150%;
+    background-color: darkblue;
 }

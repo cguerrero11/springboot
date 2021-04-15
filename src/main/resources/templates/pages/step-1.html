@@ -6,10 +6,19 @@
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
-<h1>Step 1: Stuff</h1>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Step 1: Get a dream journal</h1>
 
-<div>This is the step.</div>
+<div>
+    Getting a dream journal is very important to be able to keep remembering your dreams. If you don't write down your dreams when you
+    have them, you won't be remembering any after that. A dream journal can be your phone or an actual journal, just make sure you write down
+    your dreams. The more you write down your dreams, you'll remember them more often and may even remember more than one dream per night!
+    <br>
+    <img th:src="@{/img/DreamJournal.jpg}">
+
+</div>
 
 <a th:href="@{/step2}">To step #2.</a>
+<div th:insert="fragments/_footer :: footer"></div>
 </body>
 </html>

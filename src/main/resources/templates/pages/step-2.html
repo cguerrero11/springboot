@@ -6,7 +6,17 @@
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
-
+<div th:insert="fragments/_header :: header"></div>
+<h1>Step 2: Remembering Dreams</h1>
+<div>
+    When you first wake up, lie still in the position that you had just been asleep in and pay attention to your mind,
+    any lingering thoughts, ideas, or emotions you may find are dream fragments. Hold onto these fragments, don't let them slip away,
+    and use them to recall your dream. Once you have remembered your dream, retell it to yourself several times before sitting up
+    and recording it in your dream journal.
+    <br>
+    <img th:src="@{/img/lying.jpg}">
+</div>
 <a th:href="@{/step3}">To Final step.</a>
+<div th:insert="fragments/_footer :: footer"></div>
 </body>
 </html>
